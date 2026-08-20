@@ -1,0 +1,14 @@
+body{
+    background-color: lightyellow;
+}
+.biodata{
+    display:flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.biodata table, th {
+  border: 1px solid;
+}
+h1{
+    text-align:center;
+}
