@@ -6,9 +6,17 @@ body{
     align-items: flex-start;
     gap: 20px;
 }
-.biodata table, th {
+.biodata table{
+  border: 1px solid;
+   border-collapse: collapse;
+}
+.biodata th{
   border: 1px solid;
 }
+.biodata td{
+    border: 1px solid;
+} 
+
 h1{
     text-align:center;
 }
