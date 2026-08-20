@@ -7,16 +7,20 @@ body{
     gap: 20px;
 }
 .biodata table{
-  border: 1px solid;
    border-collapse: collapse;
 }
 .biodata th{
-  border: 1px solid;
-}
+ padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;}
 .biodata td{
-    border: 1px solid;
-} 
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+}
 
 h1{
     text-align:center;
 }
+
+tr:hover {background-color: coral;}
